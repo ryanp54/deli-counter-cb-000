@@ -9,6 +9,7 @@ def line(queue)
 end
 
 def take_a_number(queue, person)
+    puts "Welcome, #{person}. You are number #{queue.size+1} in line."
     queue << person
 end
 
