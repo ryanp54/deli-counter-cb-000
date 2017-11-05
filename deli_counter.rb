@@ -3,7 +3,7 @@ def line(queue)
   if queue.size > 0
     verbose_line = ":" + queue.collect {|person| " #{queue.index(person)+1}. #{person}"}.join
   else
-    verbose_line = " empty"
+    verbose_line = " empty."
   end
   puts "The line is currently#{verbose_line}"
 end
